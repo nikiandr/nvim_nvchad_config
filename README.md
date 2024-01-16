@@ -1,4 +1,4 @@
-# nvim_nvchad_config
+# My neovim NvChad custom config
 
 My custom NvChad distro neovim config.
 
