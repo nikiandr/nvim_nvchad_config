@@ -12,6 +12,7 @@ M.general = {
     },
     ["<leader>md"] = { "<cmd> MarkdownPreviewToggle <CR>", "Turn on markdown preview rendering" },
     ["<leader>cd"] = { "<cmd> cd %:h <CR>", "Change directory to current buffer directory" },
+    ["<leader>q"] = { "<cmd> TroubleToggle <CR>", "Toggle trouble.nvim menu" },
   },
   v = {
     [">"] = { ">gv", "indent" },

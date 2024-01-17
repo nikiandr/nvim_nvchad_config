@@ -19,7 +19,8 @@ local plugins = {
     config = function()
       require "plugins.configs.lspconfig"
       require "custom.configs.lspconfig"
-    end, -- Override to setup mason-lspconfig
+    end, -- Override to setup mason-lspconfig,
+    lazy = false,
   },
 
   -- override plugin configs
@@ -86,6 +87,7 @@ local plugins = {
       -- or leave it empty to use the default settings
       -- refer to the configuration section below
     },
+    lazy = false,
   },
 
   -- To make a plugin not be loaded
